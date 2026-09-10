@@ -35,20 +35,19 @@
                     "interactions": "",
                     "initialStateCheck": false,
                     "priority": 0
+                },
+                {
+                    "name": "Spawn",
+                    "type": "Button",
+                    "id": "3544d13f-fdec-460c-b59a-250d6801de9d",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
                 }
             ],
             "bindings": [
-                {
-                    "name": "",
-                    "id": "bfc310ea-ec9b-4e87-a341-e59a5714d990",
-                    "path": "<Keyboard>/q",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Quit",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
                 {
                     "name": "",
                     "id": "0852e821-2606-423b-8ef7-ba5ae31d648f",
@@ -57,17 +56,6 @@
                     "processors": "",
                     "groups": "",
                     "action": "Quit",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "34357f9a-9317-4048-8fee-82622ebbd124",
-                    "path": "<Keyboard>/l",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "ChangeLight",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -84,8 +72,8 @@
                 },
                 {
                     "name": "",
-                    "id": "ff50e375-28f2-4429-9042-c81ce89f6aa1",
-                    "path": "<Keyboard>/t",
+                    "id": "83e73aea-0279-4cd9-ad9f-fcdb0906b740",
+                    "path": "<XRController>{LeftHand}/primaryButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -95,12 +83,12 @@
                 },
                 {
                     "name": "",
-                    "id": "83e73aea-0279-4cd9-ad9f-fcdb0906b740",
-                    "path": "<XRController>{LeftHand}/primaryButton",
+                    "id": "c36230c5-095a-430b-b19d-2132ff7767ba",
+                    "path": "<XRController>{LeftHand}/secondaryButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "BreakOut",
+                    "action": "Spawn",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
